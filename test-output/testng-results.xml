@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3963" started-at="2022-05-04T09:08:58Z" finished-at="2022-05-04T09:09:02Z">
+  <suite name="Default suite" duration-ms="4051" started-at="2022-05-12T13:36:28Z" finished-at="2022-05-12T13:36:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3963" started-at="2022-05-04T09:08:58Z" finished-at="2022-05-04T09:09:02Z">
-      <class name="test.DynamicJsonBook">
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:test.DynamicJsonBook@548a9f61]" name="addBook" duration-ms="3702" started-at="2022-05-04T14:38:58Z" data-provider="BooksData" finished-at="2022-05-04T14:39:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gghvg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8414]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="4051" started-at="2022-05-12T13:36:28Z" finished-at="2022-05-12T13:36:32Z">
+      <class name="test.PostDataXml">
+        <test-method status="PASS" signature="addedBook()[pri:0, instance:test.PostDataXml@3bfdc050]" name="addedBook" duration-ms="4017" started-at="2022-05-12T19:06:28Z" finished-at="2022-05-12T19:06:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:test.DynamicJsonBook@548a9f61]" name="addBook" duration-ms="102" started-at="2022-05-04T14:39:02Z" data-provider="BooksData" finished-at="2022-05-04T14:39:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tatsqay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[8793]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:test.DynamicJsonBook@548a9f61]" name="addBook" duration-ms="116" started-at="2022-05-04T14:39:02Z" data-provider="BooksData" finished-at="2022-05-04T14:39:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wqwjg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2163]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- test.DynamicJsonBook -->
+        </test-method> <!-- addedBook -->
+      </class> <!-- test.PostDataXml -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
